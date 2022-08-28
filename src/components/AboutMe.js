@@ -10,8 +10,6 @@ import Divider from "@mui/material/Divider";
 import { Container, Stack } from "@mui/system";
 import { NavBar } from "./NavBar";
 
-import Typewriter from "typewriter-effect";
-
 import { Footer } from "./Footer";
 
 export const AboutMe = ({ pages }) => {

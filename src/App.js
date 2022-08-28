@@ -8,6 +8,7 @@ import { CV } from "./components/CV";
 
 export const App = () => {
   const pages = [
+    { label: "Home", path: "/*" },
     { label: "About Me", path: "/about-me" },
     { label: "Projects", path: "/projects" },
     { label: "Contact Me", path: "/contact-me" },

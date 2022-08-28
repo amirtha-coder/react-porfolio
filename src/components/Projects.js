@@ -43,12 +43,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://limitless-citadel-05906.herokuapp.com/">
+              <Link
+                href="https://limitless-citadel-05906.herokuapp.com/"
+                target={"_blank"}
+              >
                 View BuddyUp
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/roxywasiak/buddy-up">
+              <Link
+                href="https://github.com/roxywasiak/buddy-up"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -70,12 +76,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://skyisnotgreen.github.io/police-crime-fighter/">
+              <Link
+                href="https://skyisnotgreen.github.io/police-crime-fighter/"
+                target={"_blank"}
+              >
                 View Police-Crime-Fighter
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/SkyIsNotGreen/police-crime-fighter">
+              <Link
+                href="https://github.com/SkyIsNotGreen/police-crime-fighter"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -97,12 +109,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://amirtha-coder.github.io/timed-code-quiz/">
+              <Link
+                href="https://amirtha-coder.github.io/timed-code-quiz/"
+                target={"_blank"}
+              >
                 View Code Quiz
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/amirtha-coder/timed-code-quiz">
+              <Link
+                href="https://github.com/amirtha-coder/timed-code-quiz"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -124,12 +142,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://amirtha-coder.github.io/dashboard-with-weather/">
+              <Link
+                href="https://amirtha-coder.github.io/dashboard-with-weather/"
+                target={"_blank"}
+              >
                 View Weather Dashboard
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/amirtha-coder/dashboard-with-weather">
+              <Link
+                href="https://github.com/amirtha-coder/dashboard-with-weather"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -151,12 +175,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://github.com/amirtha-coder/work-day-planner/tree/dev">
+              <Link
+                href="https://github.com/amirtha-coder/work-day-planner/tree/dev"
+                target={"_blank"}
+              >
                 View DayPlanner
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/SkyIsNotGreen/police-crime-fighter">
+              <Link
+                href="https://github.com/SkyIsNotGreen/police-crime-fighter"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -178,12 +208,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://amirtha-coder.github.io/random-password-generator/">
+              <Link
+                href="https://amirtha-coder.github.io/random-password-generator/"
+                target={"_blank"}
+              >
                 View Password Generator
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/amirtha-coder/random-password-generator/tree/dev">
+              <Link
+                href="https://github.com/amirtha-coder/random-password-generator/tree/dev"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>
@@ -205,12 +241,18 @@ export const Projects = ({ pages }) => {
           </CardActionArea>
           <CardActions>
             <Typography gutterBottom variant="h5" component="div">
-              <Link href="https://amirtha-coder.github.io/amirtha-portfolio/">
+              <Link
+                href="https://amirtha-coder.github.io/amirtha-portfolio/"
+                target={"_blank"}
+              >
                 View portfolio
               </Link>
             </Typography>
             <Button size="small" color="primary">
-              <Link href="https://github.com/amirtha-coder/amirtha-portfolio">
+              <Link
+                href="https://github.com/amirtha-coder/amirtha-portfolio"
+                target={"_blank"}
+              >
                 <GitHubIcon fontSize="large" />
               </Link>
             </Button>

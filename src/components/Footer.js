@@ -29,10 +29,29 @@ export const Footer = () => {
           label="GitHub"
           icon={<GitHubIcon />}
         />
-        <BottomNavigationAction label="Email" icon={<MarkEmailUnreadIcon />} />
-        <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
+        <BottomNavigationAction
+          onClick={() => {
+            window.open(
+              "mailto:amirtha.m.muthirulandi@gmail.com",
+              "_blank",
+              "noopener,noreferrer"
+            );
+          }}
+          label="Email"
+          icon={<MarkEmailUnreadIcon />}
+        />
+        <BottomNavigationAction
+          onClick={() => {
+            window.open(
+              "https://www.linkedin.com/in/a-m-9518071ab/",
+              "_blank",
+              "noopener,noreferrer"
+            );
+          }}
+          label="LinkedIn"
+          icon={<LinkedInIcon />}
+        />
       </BottomNavigation>
-      //{" "}
     </Box>
   );
 };

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c9db262a.css",
+    "main.js": "/react-portfolio/static/js/main.045110bd.js",
+    "static/media/buddy-up.png": "/react-portfolio/static/media/buddy-up.5be3734028e1ed3af9b0.png",
+    "static/media/police-crime-fighter.png": "/react-portfolio/static/media/police-crime-fighter.e26c60c82250a2ecc2ca.png",
+    "static/media/portfolio.jpeg": "/react-portfolio/static/media/portfolio.65d9c9774d6aef028886.jpeg",
+    "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.8817e279f31a51cda09b.png",
+    "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.2bb3a185daaa5c7672ee.png",
+    "static/media/dayplanner.png": "/react-portfolio/static/media/dayplanner.e8888e1ad5a8ec0f4054.png",
+    "static/media/passwordgenerator.png": "/react-portfolio/static/media/passwordgenerator.9ed5ba4d2bd85bb4f2b9.png",
+    "static/media/me.jpeg": "/react-portfolio/static/media/me.c1ed7f414aa7a887f798.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.c9db262a.css.map": "/react-portfolio/static/css/main.c9db262a.css.map",
+    "main.045110bd.js.map": "/react-portfolio/static/js/main.045110bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9db262a.css",
+    "static/js/main.045110bd.js"
+  ]
+}

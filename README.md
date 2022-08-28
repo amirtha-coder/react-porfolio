@@ -1,4 +1,4 @@
-# react-portfolio>
+# React Portfolio
 
 I have designed my portfolio using the React framework. I have used function-based components and used hooks to have access the life cycles that class based components may typically have.
 
@@ -17,7 +17,7 @@ I have designed my portfolio using the React framework. I have used function-bas
 
 # Deployed URL
 
-- Please click [here](https://amirtha-coder.github.io/react-portfolio/) to visit site.
+Please click [here](https://amirtha-coder.github.io/react-portfolio/) to visit site.
 
 <br>
 
@@ -88,6 +88,12 @@ npm run start
 <br>
 
 ## Screenshots
+
+- ### Home Page ![Home Page](./src/images/screenshot-home.png) <br>
+- ### About Me Page ![About Me Page](./src/images/screenshot-aboutme.png) <br>
+- ### Projects Page ![Projects Page](./src/images/screenshots-projects.png) <br>
+- ### Contact Me Page ![Contact Me Page](./src/images/screenshots-contactme.png) <br>
+- ### CV Page ![CV Page](./src/images/screenshots-cv.png)
 
 <br>
 

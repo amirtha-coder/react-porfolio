@@ -18,7 +18,6 @@ export const AboutMe = ({ pages }) => {
   const style = {
     width: "100vw",
     maxWidth: 1000,
-    bgcolor: "",
   };
 
   return (

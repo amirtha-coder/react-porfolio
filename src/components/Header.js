@@ -5,12 +5,13 @@ import Stack from "@mui/material/Stack";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import "../App.css";
 import { NavBar } from "./NavBar";
+import me from "../images/me.jpeg";
 import { Footer } from "./Footer";
 
 export const Header = ({ pages }) => {
   const isMobile = useMediaQuery("(max-width:600px)");
   return (
-    <Container>
+    <Stack>
       <NavBar pages={pages} />
       <Stack
         direction="column"
@@ -25,7 +26,7 @@ export const Header = ({ pages }) => {
       >
         <Avatar
           alt="Amirtha Muthirulandi"
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQE47fXs0fJI4w/profile-displayphoto-shrink_400_400/0/1660421883960?e=1665619200&v=beta&t=KBjzL6srLhGe7TWottfME3Eqz8EQzaC-Tw1Nxgw9DRY"
+          src={me}
           sx={{
             width: isMobile ? 190 : 300,
             height: isMobile ? 190 : 300,
@@ -45,6 +46,6 @@ export const Header = ({ pages }) => {
         ;
       </Stack>
       <Footer />
-    </Container>
+    </Stack>
   );
 };

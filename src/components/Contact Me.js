@@ -71,7 +71,7 @@ export const ContactMe = ({ pages }) => {
   };
 
   return (
-    <Container>
+    <Stack>
       <NavBar pages={pages} />
       <Box
         component="form"
@@ -167,6 +167,6 @@ export const ContactMe = ({ pages }) => {
         </Stack>
       </Box>
       <Footer />
-    </Container>
+    </Stack>
   );
 };

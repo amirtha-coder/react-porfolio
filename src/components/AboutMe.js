@@ -9,7 +9,7 @@ import { Footer } from "./Footer";
 
 export const AboutMe = ({ pages }) => {
   return (
-    <Container>
+    <Stack>
       <NavBar pages={pages} />
       <Box
         sx={{
@@ -52,6 +52,6 @@ export const AboutMe = ({ pages }) => {
         </Box>
       </Box>
       <Footer />
-    </Container>
+    </Stack>
   );
 };

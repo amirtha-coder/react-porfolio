@@ -5,9 +5,16 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { Button, CardActionArea, CardActions } from "@mui/material";
+import { Button, CardActionArea, CardActions, Link } from "@mui/material";
 import { NavBar } from "./NavBar";
 import { Footer } from "./Footer";
+import buddyUp from "../images/buddy-up.png";
+import policeCrimeFighter from "../images/police-crime-fighter.png";
+import dayPlanner from "../images/dayplanner.png";
+import passwordGenerator from "../images/passwordgenerator.png";
+import portfolio from "../images/portfolio.jpeg";
+import weatherDashboard from "../images/weatherdashboard.png";
+import codeQuiz from "../images/codequiz.png";
 
 export const Projects = ({ pages }) => {
   return (
@@ -22,127 +29,190 @@ export const Projects = ({ pages }) => {
       >
         <Card
           sx={{
-            maxWidth: 345,
+            width: 345,
+            height: 300,
             margin: "2rem",
             padding: "1rem",
           }}
         >
           <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
-            />
+            <CardMedia component="img" height="140" src={buddyUp} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://limitless-citadel-05906.herokuapp.com/">
+                View BuddyUp
+              </Link>
+            </Typography>
             <Button size="small" color="primary">
-              <GitHubIcon fontSize="large" />
+              <Link href="https://github.com/roxywasiak/buddy-up">
+                <GitHubIcon fontSize="large" />
+              </Link>
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "2rem", padding: "1rem" }}>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
           <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
-            />
+            <CardMedia component="img" height="140" src={policeCrimeFighter} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://skyisnotgreen.github.io/police-crime-fighter/">
+                View Police-Crime-Fighter
+              </Link>
+            </Typography>
             <Button size="small" color="primary">
-              <GitHubIcon fontSize="large" />
+              <Link href="https://github.com/SkyIsNotGreen/police-crime-fighter">
+                <GitHubIcon fontSize="large" />
+              </Link>
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "2rem", padding: "1rem" }}>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
           <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
-            />
+            <CardMedia component="img" height="140" src={codeQuiz} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://amirtha-coder.github.io/timed-code-quiz/">
+                View Code Quiz
+              </Link>
+            </Typography>
             <Button size="small" color="primary">
-              <GitHubIcon fontSize="large" />
+              <Link href="https://github.com/amirtha-coder/timed-code-quiz">
+                <GitHubIcon fontSize="large" />
+              </Link>
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "2rem", padding: "1rem" }}>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
           <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
-            />
+            <CardMedia component="img" height="140" src={weatherDashboard} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://amirtha-coder.github.io/dashboard-with-weather/">
+                View Weather Dashboard
+              </Link>
+            </Typography>
             <Button size="small" color="primary">
-              <GitHubIcon fontSize="large" />
+              <Link href="https://github.com/amirtha-coder/dashboard-with-weather">
+                <GitHubIcon fontSize="large" />
+              </Link>
             </Button>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345, margin: "2rem", padding: "1rem" }}>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
           <CardActionArea>
-            <CardMedia
-              component="img"
-              height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
-            />
+            <CardMedia component="img" height="140" src={dayPlanner} />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Typography variant="body2" color="text.secondary"></Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://github.com/amirtha-coder/work-day-planner/tree/dev">
+                View DayPlanner
+              </Link>
+            </Typography>
             <Button size="small" color="primary">
-              <GitHubIcon fontSize="large" />
+              <Link href="https://github.com/SkyIsNotGreen/police-crime-fighter">
+                <GitHubIcon fontSize="large" />
+              </Link>
+            </Button>
+          </CardActions>
+        </Card>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
+          <CardActionArea>
+            <CardMedia component="img" height="140" src={passwordGenerator} />
+            <CardContent>
+              <Typography variant="body2" color="text.secondary"></Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://amirtha-coder.github.io/random-password-generator/">
+                View Password Generator
+              </Link>
+            </Typography>
+            <Button size="small" color="primary">
+              <Link href="https://github.com/amirtha-coder/random-password-generator/tree/dev">
+                <GitHubIcon fontSize="large" />
+              </Link>
+            </Button>
+          </CardActions>
+        </Card>
+        <Card
+          sx={{
+            width: 345,
+            height: 300,
+            margin: "2rem",
+            padding: "1rem",
+          }}
+        >
+          <CardActionArea>
+            <CardMedia component="img" height="140" src={portfolio} />
+            <CardContent>
+              <Typography variant="body2" color="text.secondary"></Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link href="https://amirtha-coder.github.io/amirtha-portfolio/">
+                View portfolio
+              </Link>
+            </Typography>
+            <Button size="small" color="primary">
+              <Link href="https://github.com/amirtha-coder/amirtha-portfolio">
+                <GitHubIcon fontSize="large" />
+              </Link>
             </Button>
           </CardActions>
         </Card>

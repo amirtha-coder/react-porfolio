@@ -14,14 +14,12 @@ export const App = () => {
     { label: "CV", path: "/cv" },
   ];
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Header pages={pages} />} />
-        <Route path="/about-me" element={<AboutMe pages={pages} />} />
-        <Route path="/projects" element={<Projects pages={pages} />} />
-        <Route path="/contact-me" element={<ContactMe pages={pages} />} />
-        <Route path="/cv" element={<CV pages={pages} />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Header pages={pages} />} />
+      <Route path="/about-me" element={<AboutMe pages={pages} />} />
+      <Route path="/projects" element={<Projects pages={pages} />} />
+      <Route path="/contact-me" element={<ContactMe pages={pages} />} />
+      <Route path="/cv" element={<CV pages={pages} />} />
+    </Routes>
   );
 };

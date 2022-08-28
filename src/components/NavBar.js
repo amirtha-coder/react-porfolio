@@ -35,7 +35,6 @@ export const NavBar = ({ pages }) => {
             variant="h6"
             noWrap
             component="a"
-            href="./"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -44,9 +43,7 @@ export const NavBar = ({ pages }) => {
               letterSpacing: ".3rem",
               color: "#ffffff",
             }}
-          >
-            AMIRTHA
-          </Typography>
+          ></Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -97,7 +94,6 @@ export const NavBar = ({ pages }) => {
             variant="h5"
             noWrap
             component="a"
-            href="./*"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -108,9 +104,7 @@ export const NavBar = ({ pages }) => {
               color: "inherit",
               textDecoration: "none",
             }}
-          >
-            AMIRTHA
-          </Typography>
+          ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button

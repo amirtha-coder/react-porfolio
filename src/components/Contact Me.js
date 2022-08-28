@@ -78,11 +78,11 @@ export const ContactMe = ({ pages }) => {
         ref={form}
         onSubmit={sendEmail}
         sx={{
-          "& .MuiTextField-root": { m: 1, width: "25ch" },
-          background:
-            "radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%)",
-          margin: "1rem",
-          padding: "1rem",
+          backgroundImage:
+            " linear-gradient(to left, #624f9c, #5c53a0, #5657a5, #4e5aa8, #465eac, #635daf, #7d5baf, #9458ac, #c44d96, #e24c73, #ec5d4b, #e17b1e)",
+          color: "#ffffff",
+          margin: "3rem",
+          padding: "2rem",
           borderRadius: "5%",
         }}
         noValidate

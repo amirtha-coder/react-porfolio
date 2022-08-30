@@ -34,6 +34,7 @@ export const NavBar = ({ pages }) => {
           <Typography
             variant="h6"
             noWrap
+            href="https://amirtha-coder.github.io/react-portfolio"
             component="a"
             sx={{
               mr: 2,
@@ -93,7 +94,7 @@ export const NavBar = ({ pages }) => {
           <Typography
             variant="h5"
             noWrap
-            component="a"
+            href="https://amirtha-coder.github.io/react-portfolio"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
